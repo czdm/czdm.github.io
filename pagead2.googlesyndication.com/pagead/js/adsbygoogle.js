@@ -8388,7 +8388,7 @@
             if (e) uq(a, d);
             else if ((e = a.params) && cd(e, function(g, h) {
                     b[h] = g
-                }), "js" === b.google_ad_output) console.warn("Ads with google_ad_output='js' have been deprecated and no longer work. Contact your AdSense account manager or switch to standard AdSense ads.");
+                }), "js" === b.google_ad_output) console.warn("Ads with google_ad_output='js' have been deprecated and no longer work. 联系 your AdSense account manager or switch to standard AdSense ads.");
             else {
                 e = vq(a.element);
                 Kp(e, b);

@@ -829,7 +829,7 @@ window.Typekit.config = {
             b.onload = null
         };
         setTimeout(function() {
-            c || (b.src = "about:blank", b.onload = null)
+            c || (b.src = "关于:blank", b.onload = null)
         }, 3E3)
     };
     var Ia = new function() {

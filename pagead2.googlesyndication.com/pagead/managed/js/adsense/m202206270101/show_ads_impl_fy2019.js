@@ -1241,7 +1241,7 @@
         return Jd(a)
     }
     var Nd = /%{(\w+)}/g,
-        Md = RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)", "i"),
+        Md = RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|关于:blank#)", "i"),
         Fd = /^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,
         Cd = {};
 
@@ -1300,11 +1300,11 @@
         if (a instanceof Pd) return a;
         a = "object" == typeof a && a.qa ? a.ea() : String(a);
         if (b && /^data:/i.test(a) && (b = Sd(a) || Wd, b.ea() == a)) return b;
-        Td.test(a) || (a = "about:invalid#zClosurez");
+        Td.test(a) || (a = "关于:invalid#zClosurez");
         return new Pd(a, Od)
     }
     var Od = {},
-        Wd = new Pd("about:invalid#zClosurez", Od);
+        Wd = new Pd("关于:invalid#zClosurez", Od);
     const Xd = {};
 
     function Yd(a) {
@@ -7635,7 +7635,7 @@
                 e = this.B.replace("${website}",
                     this.host.startsWith("www.") ? this.host.slice(4) : this.host),
                 f = Ms;
-            Js(c, Ds) || Js(c, Es) ? c = et(c) : c instanceof Pd ? c = et(Qd(c)) : c instanceof Pd ? c = et(Qd(c)) : c instanceof Dd ? c = et(Id(c).toString()) : c instanceof Dd ? c = et(Id(c).toString()) : (c = String(c), c = dt.test(c) ? c.replace(ct, bt) : "about:invalid#zSoyz");
+            Js(c, Ds) || Js(c, Es) ? c = et(c) : c instanceof Pd ? c = et(Qd(c)) : c instanceof Pd ? c = et(Qd(c)) : c instanceof Dd ? c = et(Id(c).toString()) : c instanceof Dd ? c = et(Id(c).toString()) : (c = String(c), c = dt.test(c) ? c.replace(ct, bt) : "关于:invalid#zSoyz");
             a = f('<style>.cse-favicon {display: block; float: left; height: 16px; position: absolute; left: 15px; width: 16px;}.cse-header {font-size: 16px; font-family: Arial; height: 16px; margin-left: 35px; margin-top: 6px; margin-bottom: unset; line-height: 16px;}.gsc-search-box {max-width: 520px !important;}.gsc-input {padding-right: 0 !important;}.gsc-input-box {border-radius: 16px 0 0 16px !important;}.gsc-search-button-v2 {border-left: 0 !important; border-radius: 0 16px 16px 0 !important; min-height: 30px !important; margin-left: 0 !important;}.gsc-cursor-page, .gsc-cursor-next-page, .gsc-cursor-numbered-page {color: #1a73e8 !important;}.gsc-cursor-chevron {fill: #1a73e8 !important;}.gsc-cursor-box {text-align: center !important;}.gsc-cursor-current-page {color: #000 !important;}.gcsc-find-more-on-google-root, .gcsc-find-more-on-google {display: none !important;}</style><img class="cse-favicon" src="' +
                 Qs(c) + '" alt="' + Qs(b) + ' icon"><p class="cse-header"><strong>' + Ls(e) + '</strong></p><div class="gcse-search" data-gname="' + Qs("auto-rs-prose") + '" data-adclient="' + Qs(a) + '" data-adchannel="AutoRsVariant" data-as_sitesearch="' + Qs(b) + '" data-gl="' + Qs(d) + '" data-personalizedAds="false"></div>');
             a = Hs(a);

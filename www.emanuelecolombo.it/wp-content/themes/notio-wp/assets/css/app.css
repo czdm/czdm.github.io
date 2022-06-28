@@ -3605,7 +3605,7 @@ textarea,
 .btn-text.style2:after,
 .btn-text.style3 span:after,
 .btn-text.style4 .arrow>div,
-.contact_map_parent .expand,
+.联系_map_parent .expand,
 .style2 .mobile-menu>li>a:before,
 .thb-portfolio .type-portfolio h2,
 .thb-portfolio .type-portfolio .thb-categories,
@@ -4640,7 +4640,7 @@ h6 {
     content: "\f014"
 }
 
-.fa-home:before {
+.fa-主页:before {
     content: "\f015"
 }
 
@@ -5392,7 +5392,7 @@ h6 {
 }
 
 .fa-dashboard:before,
-.fa-tachometer:before {
+.fa-tac主页ter:before {
     content: "\f0e4"
 }
 
@@ -12027,12 +12027,12 @@ textarea {
     transform: scale(1, 1)
 }
 
-.contact_map_parent {
+.联系_map_parent {
     position: relative;
     overflow: hidden
 }
 
-.contact_map_parent .expand {
+.联系_map_parent .expand {
     width: 46px;
     height: 46px;
     position: absolute;
@@ -12046,26 +12046,26 @@ textarea {
 }
 
 @media only screen and (min-width: 64.063em) {
-    .contact_map_parent .expand {
+    .联系_map_parent .expand {
         display: flex
     }
 }
 
-.contact_map_parent .expand svg {
+.联系_map_parent .expand svg {
     width: 20px;
     height: 20px
 }
 
-.contact_map_parent .expand svg g {
+.联系_map_parent .expand svg g {
     stroke: #fff;
     stroke-width: 4
 }
 
-.contact_map_parent .expand:hover {
+.联系_map_parent .expand:hover {
     background: #151515
 }
 
-.contact_map_parent .contact_map {
+.联系_map_parent .联系_map {
     position: absolute;
     top: 0;
     right: 0;
@@ -12074,12 +12074,12 @@ textarea {
     z-index: 10
 }
 
-.contact_map_parent.map_left .expand {
+.联系_map_parent.map_left .expand {
     right: auto;
     left: 20px
 }
 
-.contact_map_parent.map_left .google_map {
+.联系_map_parent.map_left .google_map {
     right: auto;
     left: 0
 }
@@ -16534,7 +16534,7 @@ form.woocommerce-checkout {
     display: inline-flex
 }
 
-.payment_methods .wc_payment_method.payment_method_paypal .about_paypal {
+.payment_methods .wc_payment_method.payment_method_paypal .关于_paypal {
     font-size: 80%;
     margin-left: 20px;
     font-weight: 400
